@@ -4,76 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/papercss@1.6.1/dist/paper.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Search</title>
 </head>
 <body>
-    <header>
-        nav bar placeholder
-    </header>
-
-    <container>
-        <div class="row">
-
-            <div class="col-md-3">
-
-            </div>
-
-            <div class="col-md-6">
-                <button>Search</button>
-                <input type='text' placeholder='search perameter'>
-            </div>
-
-            <div class="col-md-3">
-
-            </div>
-
+    
+    <nav class="border centerText">
+        <div class="collapsible">
+          <input id="collapsible1" type="checkbox" name="collapsible1">
+          <button>
+          <label for="collapsible1">
+              <div class="bar1"></div>
+              <div class="bar2"></div>
+              <div class="bar3"></div>
+            </label>
+          </button>
+          <div class="collapsible-body">
+            <ul class="inline">
+              <li><a href="home.html">Home</a></li>
+              <li><a href="wishlist.html">Wishlist</a></li>
+              <li><a href="map-page.html">Map</a></li>
+            </ul>
+          </div>
         </div>
+      </nav>
+
+      <br>
+      <br>
+      
+
+      <div class="paper container">
+      <h1 class="centerText" id="searchHeader">Search Comics!</h1>
+      </div>
+
+      <br>
+
+      <div class="paper container">
         <div class="row">
-
-            <div class="col-md-1">
-
-            </div>
-
-            <div class="col-md-10">
-                <div class="row">
-                    <div class="col-md-6">
-                        <p>publisher</p>
-                        <p>Date Published</p>
-                        <p>Author</p>
-                        <p>Illustrator</p>
-                    </div>
-
-                    <div class="col-md-6">
-                        <div id=comicImage></div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-md-1">
-
-                </div>
-
-                <div class="col-md-10">
-                    <p>Plot goes here</p>
-                </div>
-
-                <div class="col-md-1">
-
-                </div>
-            </div>
-
-            <div class="col-md-1">
-
+        <div class="card" style="display: flex; flex-direction: row" id="textCard">
+            <img src="https://picsum.photos/250"  alt="Card example image">
+          
+            <div class="card-body" style="display: flex; flex-direction: column">
+              <h4 class="card-title">Title</h4>
+              <h5 class="card-subtitle">Publisher?</h5>
+              <p class="card-text">Notice that the card width in this example have been set to 20rem, otherwise it will try to fill the current container/row where the card is.</p>
+              <button id=searchBtn>Add to Wishlist</button>
             </div>
         </div>
-
-    <div class="row">
+          
+      
+    <!-- <div class="row">
         <div class="col-md-12">
-            <button id=wishListBut>Add to Wishlist</button>        
+                   
         </div>
+    </div> -->
     </div>
-    </container>
     
 </body>
 </html>
