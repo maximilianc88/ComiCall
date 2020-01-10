@@ -7,9 +7,10 @@
     <title>Wish List Document</title>
     <link rel="stylesheet" href="https://unpkg.com/papercss@1.6.1/dist/paper.min.css">
     <link rel="stylesheet" href="wishlist-files/wishlistStyles.css">
+    <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
-    <h1 class="centerText" id="wishlistHeader">Wishlist</h1>
+ 
     <nav class="border centerText">
         <div class="collapsible">
           <input id="collapsible1" type="checkbox" name="collapsible1">
@@ -22,13 +23,38 @@
           </button>
           <div class="collapsible-body">
             <ul class="inline">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Search</a></li>
-              <li><a href="wishlist.html">Wishlist</a></li>
+              <li><a href="home.html">Home</a></li>
+              <li><a href="search.html">Search</a></li>
               <li><a href="map-page.html">Map</a></li>
             </ul>
           </div>
         </div>
       </nav>
+
+      <br>
+      <br>
+      <br>
+
+      <div class="paper container">
+      <h1 class="centerText" id="wishlistHeader">Wishlist</h1>
+      </div>
+
+      <div class="paper container" id="search-line">
+        <div class="row">
+          <div class="col-md-10">
+            
+          <input type="text" placeholder="Search for my comic..." id="paperInputs1">
+          </div>
+
+            <div class="col-md-2">
+              <input type="button" class="btn-secondary btn-small" value="Add to Wishlist"/>
+            </div>
+        <!-- <div class="form-group"> -->
+          
+          
+        </div>
+        </div>
+      </div>
+
 </body>
 </html>
