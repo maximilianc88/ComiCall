@@ -1,78 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-    <header>
-      Nav bar place holder
-    </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="https://unpkg.com/papercss@1.6.1/dist/paper.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Home</title>
+  </head>
+  <body>
+    <nav class="border fixed split-nav">
+      <div class="collapsible">
+        <input id="collapsible1" type="checkbox" name="collapsible1">
+        <button>
+        <label for="collapsible1">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </label>
+        </button>
+        <div class="collapsible-body">
+          <ul class="inline">
+            <li><a href="search.html">Search</a></li>
+            <li><a href="wishlist.html">Wishlist</a></li>
+            <li><a href="map-page.html">Map</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
     
+    <div class="paper container">
+    <h1>Welcome Home!</h1>
+    </div>
+
+
+
     <container>
       <div class="row">
-        
-        <div class="col-md-2">
-
-        </div>
+        <div class="col-md-2"></div>
 
         <div class="col-md-8">
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet esse omnis eum tempore est eius quam excepturi molestiae qui provident accusamus temporibus dolorem, similique, praesentium natus dignissimos assumenda error itaque?</p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet esse
+            omnis eum tempore est eius quam excepturi molestiae qui provident
+            accusamus temporibus dolorem, similique, praesentium natus
+            dignissimos assumenda error itaque?
+          </p>
         </div>
 
-        <div class="col-md-2">
-
-        </div>
-
+        <div class="col-md-2"></div>
       </div>
 
       <div class="row">
-        
-        <div class="col-md-2">
-
-        </div>
+        <div class="col-md-2"></div>
 
         <div class="col-md-8">
-
           <div class="row">
-
             <div class="col-md-3">
               <div id="villainImage"></div>
             </div>
 
             <div class="col-md-6">
-              <button>Comic Search</button>
-              <button>Wish List</button>
-              <button>Find Store Near You</button>
+              <button class="btn-large">Comic Search</buttonclass="btn-large">
+              <button class="btn-large">Wish List</button>
+              <button class="btn-large">Find Store Near You</button>
             </div>
 
             <div class="col-md-3">
               <div id="heroImage"></div>
             </div>
-
           </div>
-
         </div>
 
-        <div class="col-md-2">
-
-        </div>
-        
+        <div class="col-md-2"></div>
       </div>
-
-      
-
-
-
     </container>
 
-
-    <footer>
-
-    </footer>
-
-
-</body>
+    <footer></footer>
+  </body>
 </html>
