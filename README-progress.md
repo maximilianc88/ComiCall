@@ -1,9 +1,10 @@
 # ComiCall
 ## Description
 
-The purpose of this project is to create a timed multiple choice quiz using Javascript. 
-The quiz is designed to penalize the user 15 seconds for every incorrect answer.
-The user is prompted to select an answer from the choices list. The user gets a notification on whether or not their selection is correct. Quiz has a highscores log with a button to clear the scores. 
+The purpose of the project is to deliver a friendly, simple, practical comic search application. 
+The application is designed to make searching for specif comics just as easy as discovering new comics.
+The user enters the website by clicking on the 'Explore' button and is introduced to the comic search application, wish list, and store locator.
+Users have the option of storing comic selections to wish lists and inquiring the nearest comic book store location.
 This page is formatted to be responsive to multiple viewports. 
 
 ## Components

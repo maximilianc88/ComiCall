@@ -1,0 +1,22 @@
+body {
+    background-image: url("assets/cloudy-day.png");
+  }
+
+#header{
+    background-color: hsl(33, 84%, 93%);
+    font-weight: bold;
+}
+
+button{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    font-weight: bold;
+}
+
+div{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
