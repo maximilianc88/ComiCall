@@ -5,3 +5,31 @@
 #mapHeader{
     margin: 1rem;
 }
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#map {
+    /* transform-style:preserve-3d;
+    transform:perspective(auto) translateZ(-30vw) scale(1.4);
+    perspective:1000; */
+    height: 500px;
+    width: 500px;
+
+    /* max-width: none; */
+}
+
+#img2{
+        border-bottom-left-radius: 15px 255px;
+        border-bottom-right-radius: 225px 15px;
+        border-top-left-radius: 255px 15px;
+        border-top-right-radius: 15px 225px;
+        border: 2px solid #41403e;
+        display: block;
+        height: auto;
+        max-width: 100%
+      
+}
+
