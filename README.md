@@ -1,4 +1,22 @@
 # ComiCall
+
+## User Story
+
+As a consumer who is interested in comic books, I would like to be able to browse for comics by illustration, create a wish list of comics, and find a nearby comic book store(s) so that I can find comic books that fit my preferences.
+
+## Screenshot
+
+## Table of Contents
+
+* Description
+* What's Inside
+* Live Demo
+* Deployment
+* Technologies Used
+* Status
+* Authors
+* License
+
 ## Description
 
 The purpose of this project is to create a timed multiple choice quiz using Javascript. 
@@ -6,17 +24,21 @@ The quiz is designed to penalize the user 15 seconds for every incorrect answer.
 The user is prompted to select an answer from the choices list. The user gets a notification on whether or not their selection is correct. Quiz has a highscores log with a button to clear the scores. 
 This page is formatted to be responsive to multiple viewports. 
 
-## Components
+## What's Inside
 
 The webpage is comprised of:
 
-1. landing page 
+1. landing page with Giphy API
 2. home page
-3. comic search page
-4. wish list page
-5. comic store locator page
+3. comic search page with Comic Vine API
+4. wish list page with save to local storage
+5. comic store locator page with Google Maps API
+
+## Live Demo
 
 ## Deployment
+
+Option 1: CLONE REPO 
 
 Webpage can be found at this link: 
 
@@ -36,6 +58,10 @@ Webpage can be found at this link:
 * Paper CSS
 * Javascript
 * GitHub Pages
+
+## Status
+
+In progress
 
 ## Authors
 
