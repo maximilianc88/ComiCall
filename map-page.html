@@ -36,13 +36,27 @@
 
       <br>
       <br>
-     
-        <div id="map"></div>
+  
+      <div id= "header" class="paper container">
+      <h1 class="centerText" id="mapHeader">Local Map</h1>
+      </div>
+      
+      <br>
 
-        
+      <div class="paper container" style="display: flex; flex-direction: column">
+        <div class="row">
+          <div id="map"></div>
+        </div>
+          <div class="row">
+          <button class="btn-large">Comic Shop Near Me</buttonclass="btn-large">
+            </button>
+            </div>
+          </div>
+       </div>
+      </div>
+      
       <script>
-      // var mapElement = document.getElementById('map');
-      // mapElement.style = null;
+   
       var map, infoWindow;
       function initMap() {
         map = new google.maps.Map(document.getElementById('map'), {
@@ -76,30 +90,12 @@
                               'Error: Your browser doesn\'t support geolocation.');
         infoWindow.open(map);
       }
+ 
     </script>
-    <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBh7up_rfs0tnAS9Lz3GzRHwO7v4OkxQCc&callback=initMap">
-    </script>
-    
-      <!-- <div id= "header" class="paper container">
-      <h1 class="centerText" id="mapHeader">Map Page</h1>
-      </div>
-      
-      <br>
 
-      <div class="paper container" style>
-        <div class="row">
-          
-          <button class="btn-large">Comic Shop Near Me</buttonclass="btn-large">
-          </div>
-          
-            <div class="row">
-        <div id="map"></div>
-        </div>
-      </div>
-      
-    <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBh7up_rfs0tnAS9Lz3GzRHwO7v4OkxQCc&callback=initMap">
-    </script> -->
+<script async defer
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBh7up_rfs0tnAS9Lz3GzRHwO7v4OkxQCc&callback=initMap">
+</script>
+
 </body>
 </html>

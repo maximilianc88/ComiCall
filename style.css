@@ -20,3 +20,13 @@ div{
     text-align: center;
 }
 
+#landingP{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#homeP{
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 150%;
+}
