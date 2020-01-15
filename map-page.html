@@ -1,37 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Map Page Document</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <!-- <link rel="stylesheet" href="https://unpkg.com/papercss@1.6.1/dist/paper.min.css"> -->
-    <link rel="stylesheet" href="map-page-files/map-pageStyles.css">
-    <link rel="stylesheet" href="assets/paper.css">
+    <link rel="stylesheet" href="map-page-files/map-pageStyles.css" />
+    <link rel="stylesheet" href="assets/paper.css" />
     <link rel="stylesheet" type="text/css" href="style.css" />
-</head>
-<body>
- 
+  </head>
+  <body>
     <nav class="border centerText">
-        <div class="collapsible">
-          <input id="collapsible1" type="checkbox" name="collapsible1">
-          <button>
+      <div class="collapsible">
+        <input id="collapsible1" type="checkbox" name="collapsible1" />
+        <button>
           <label for="collapsible1">
-              <div class="bar1"></div>
-              <div class="bar2"></div>
-              <div class="bar3"></div>
-            </label>
-          </button>
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </label>
+        </button>
 
-          <div class="collapsible-body">
-            <ul class="inline">
-              <li><a href="home.html">Home</a></li>
-              <li><a href="search.html">Search</a></li>
-              <li><a href="wishlist.html">Wishlist</a></li>
-            </ul>
-          </div>
+        <div class="collapsible-body">
+          <ul class="inline">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="search.html">Search</a></li>
+            <li><a href="wishlist.html">Wishlist</a></li>
+          </ul>
         </div>
+
+      </div>
+
       </nav>
 
       <br>
@@ -54,48 +54,13 @@
           </div>
        </div>
       </div>
-      
-      <script>
-   
-      var map, infoWindow;
-      function initMap() {
-        map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: -34.397, lng: 150.644},
-          zoom: 6
-        });
-        infoWindow = new google.maps.InfoWindow;
-        // Try HTML5 geolocation.
-        if (navigator.geolocation) {
-          navigator.geolocation.getCurrentPosition(function(position) {
-            var pos = {
-              lat: position.coords.latitude,
-              lng: position.coords.longitude
-            };
-            infoWindow.setPosition(pos);
-            infoWindow.setContent('Location found.');
-            infoWindow.open(map);
-            map.setCenter(pos);
-          }, function() {
-            handleLocationError(true, infoWindow, map.getCenter());
-          });
-        } else {
-          // Browser doesn't support Geolocation
-          handleLocationError(false, infoWindow, map.getCenter());
-        }
-      }
-      function handleLocationError(browserHasGeolocation, infoWindow, pos) {
-        infoWindow.setPosition(pos);
-        infoWindow.setContent(browserHasGeolocation ?
-                              'Error: The Geolocation service failed.' :
-                              'Error: Your browser doesn\'t support geolocation.');
-        infoWindow.open(map);
-      }
- 
-    </script>
 
-<script async defer
-src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBh7up_rfs0tnAS9Lz3GzRHwO7v4OkxQCc&callback=initMap">
-</script>
-
+      <script src="map-page-files/map-pageScript.js"></script>
+      <script
+        async
+        defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBh7up_rfs0tnAS9Lz3GzRHwO7v4OkxQCc&callback=initMap&libraries=places"
+      ></script>
 </body>
 </html>
+
