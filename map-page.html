@@ -29,18 +29,38 @@
             <li><a href="wishlist.html">Wishlist</a></li>
           </ul>
         </div>
+
       </div>
-    </nav>
-    <br />
-    <br />
 
-    <div id="map"></div>
+      </nav>
 
-    <script src="map-page-files/map-pageScript.js"></script>
-    <script
-      async
-      defer
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBh7up_rfs0tnAS9Lz3GzRHwO7v4OkxQCc&callback=initMap&libraries=places"
-    ></script>
-  </body>
+      <br>
+      <br>
+  
+      <div id= "header" class="paper container">
+      <h1 class="centerText" id="mapHeader">Local Map</h1>
+      </div>
+      
+      <br>
+
+      <div class="paper container" style="display: flex; flex-direction: column">
+        <div class="row">
+          <div id="map"></div>
+        </div>
+          <div class="row">
+          <button class="btn-large">Comic Shop Near Me</buttonclass="btn-large">
+            </button>
+            </div>
+          </div>
+       </div>
+      </div>
+
+      <script src="map-page-files/map-pageScript.js"></script>
+      <script
+        async
+        defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBh7up_rfs0tnAS9Lz3GzRHwO7v4OkxQCc&callback=initMap&libraries=places"
+      ></script>
+</body>
 </html>
+

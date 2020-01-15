@@ -7,6 +7,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/papercss@1.6.1/dist/paper.min.css">
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="searchStyle.css" />
     <title>Search</title>
 </head>
 <body>
@@ -33,93 +34,89 @@
 
       <br>
       <br>
-      
 
       <div id="header" class="paper container">
       <h1 class="centerText" id="searchHeader">Search Comics!</h1>
       </div>
 
       <br>
-
-
-
       <br>
 
-      <div class="paper container">
+      <div class="paper container" style="display: flex; flex-direction: column">
         <div class="row">
-            <div class="col-md-12">
-                <div class="row">
+          <div class="card" style="width: 25rem;">
+            <div class="card-body">
+              <h4 class="card-title">My awesome Paper card!</h4>
+              <h5 class="card-subtitle">Nice looking subtitle.</h5>
+              <p class="card-text">This is another example of a card without image. Cards are also meant to be used without images, but with text/links/buttons.</p>
+              <a class="card-link" href="#">First link</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <img src="https://photos-images.active.com/file/3/1/original/3b/90/3b9016f4-27b0-4548-ac48-31f6d180ef89.jpg" alt="comic hero vs villain">
+            </div>
+          </div>
+          </div>
+          
         <div class="card" style="display: flex; flex-direction: row" id="textCard">
             <img src="https://picsum.photos/250"  alt="Card example image">
           
             <div class="card-body" style="display: flex; flex-direction: column">
               <h4 class="card-title">Title</h4>
               <h5 class="card-subtitle">Publisher?</h5>
-              <p class="card-text">Notice that the card width in this example have been set to 20rem, otherwise it will try to fill the current container/row where the card is.</p>
+              <p class="card-text">Plot</p>
               <button id=searchBtn>Add to Wishlist</button>
             </div>
         </div>
         <br>
-        <div class="row">
             <div class="card" style="display: flex; flex-direction: row" id="textCard">
                 <img src="https://picsum.photos/250"  alt="Card example image">
               
                 <div class="card-body" style="display: flex; flex-direction: column">
                   <h4 class="card-title">Title</h4>
                   <h5 class="card-subtitle">Publisher?</h5>
-                  <p class="card-text">Notice that the card width in this example have been set to 20rem, otherwise it will try to fill the current container/row where the card is.</p>
+                  <p class="card-text">Plot</p>
                   <button id=searchBtn>Add to Wishlist</button>
                 </div>
         </div>
         <br>
-        <div class="row">
             <div class="card" style="display: flex; flex-direction: row" id="textCard">
                 <img src="https://picsum.photos/250"  alt="Card example image">
               
                 <div class="card-body" style="display: flex; flex-direction: column">
                   <h4 class="card-title">Title</h4>
                   <h5 class="card-subtitle">Publisher?</h5>
-                  <p class="card-text">Notice that the card width in this example have been set to 20rem, otherwise it will try to fill the current container/row where the card is.</p>
+                  <p class="card-text">Plot</p>
                   <button id=searchBtn>Add to Wishlist</button>
                 </div>
         </div>
         <br>
-        <div class="row">
             <div class="card" style="display: flex; flex-direction: row" id="textCard">
                 <img src="https://picsum.photos/250"  alt="Card example image">
               
                 <div class="card-body" style="display: flex; flex-direction: column">
                   <h4 class="card-title">Title</h4>
                   <h5 class="card-subtitle">Publisher?</h5>
-                  <p class="card-text">Notice that the card width in this example have been set to 20rem, otherwise it will try to fill the current container/row where the card is.</p>
+                  <p class="card-text">Plot</p>
                   <button id=searchBtn>Add to Wishlist</button>
                 </div>
         </div>
         <br>
-        <div class="row">
             <div class="card" style="display: flex; flex-direction: row" id="textCard">
                 <img src="https://picsum.photos/250"  alt="Card example image">
               
                 <div class="card-body" style="display: flex; flex-direction: column">
                   <h4 class="card-title">Title</h4>
                   <h5 class="card-subtitle">Publisher?</h5>
-                  <p class="card-text">Notice that the card width in this example have been set to 20rem, otherwise it will try to fill the current container/row where the card is.</p>
+                  <p class="card-text">Plot</p>
                   <button id=searchBtn>Add to Wishlist</button>
                 </div>
         </div>
             </div>
-
-
-
-        </div>
-          
-      
-    <!-- <div class="row">
-        <div class="col-md-12">
-                   
-        </div>
-    </div> -->
+     </div>
     </div>
+    
    <script src="search-files/searchScript.js"></script>
 </body>
 </html>
