@@ -61,7 +61,10 @@
           console.log(place);
           $("#container").html("Store: " + place.name);
           $("#container2").html("Location: " +place.formatted_address);
-          $("#container3").html("Open now: " +place.opening_hours.open_now);
+          if (place.opening_hours.open_now === true){$("#container3").html("This store is open!")
+        } else {
+          $("#container3").html("Sorry, this store is closed.")
+        };
           // $("#container4").text("Store: " + JSON.stringify(place));
         })
 
