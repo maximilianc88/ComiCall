@@ -7,6 +7,7 @@
     width: 200px;
 }
 
-#searchImg{
-    
+#searchBy{
+    font-weight: bold;
+    font-size: 50px;
 }

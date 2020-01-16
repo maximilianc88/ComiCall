@@ -7,7 +7,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/papercss@1.6.1/dist/paper.min.css">
     <link rel="stylesheet" type="text/css" href="style.css" />
-    <link rel="stylesheet" type="text/css" href="searchStyle.css" />
+    <link rel="stylesheet" type="text/css" href="search-files/searchStyle.css" />
     <title>Search</title>
 </head>
 <body>
@@ -46,10 +46,14 @@
         <div class="row">
           <div class="card" style="width: 25rem;">
             <div class="card-body">
-              <h4 class="card-title">My awesome Paper card!</h4>
-              <h5 class="card-subtitle">Nice looking subtitle.</h5>
-              <p class="card-text">This is another example of a card without image. Cards are also meant to be used without images, but with text/links/buttons.</p>
-              <a class="card-link" href="#">First link</a>
+              <div class="form-group">
+                <label id="searchBy" for="paperSelects1">Search by...</label>
+                <select id="paperSelects1" style="width: 150px;">
+                  <option value="1">Title</option>
+                  <option value="2">Publisher</option>
+                  <option value="3">Character</option>
+                <select>
+              </div>
             </div>
           </div>
           <div class="card" style="width: 18rem;">
