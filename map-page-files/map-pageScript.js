@@ -58,7 +58,9 @@
         google.maps.event.addListener(marker, 'click', function(){
           infoWindowTwo.setContent(place.name);
           infoWindowTwo.open(map, this);
-          console.log(place.html_attributions);
+          console.log(place);
+          $("#container").text("Location: " + place.formatted_address);
+          // $("#container").text("Store: " + JSON.stringify(place));
         })
       }
       //
