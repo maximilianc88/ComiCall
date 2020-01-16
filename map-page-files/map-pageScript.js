@@ -59,9 +59,12 @@
           infoWindowTwo.setContent(place.name);
           infoWindowTwo.open(map, this);
           console.log(place);
-          $("#container").text("Location: " + place.formatted_address);
-          // $("#container").text("Store: " + JSON.stringify(place));
+          $("#container").html("Store: " + place.name);
+          $("#container2").html("Location: " +place.formatted_address);
+          $("#container3").html("Open now: " +place.opening_hours.open_now);
+          // $("#container4").text("Store: " + JSON.stringify(place));
         })
+
       }
       //
 
