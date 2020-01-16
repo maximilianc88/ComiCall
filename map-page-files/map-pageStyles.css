@@ -12,13 +12,8 @@ html, body{
 }
 
 #map {
-    /* transform-style:preserve-3d;
-    transform:perspective(auto) translateZ(-30vw) scale(1.4);
-    perspective:1000; */
     height: 500px;
     width: 500px;
-
-    /* max-width: none; */
 }
 
 #img2{
@@ -32,4 +27,16 @@ html, body{
         max-width: 100%
       
 }
+
+body {
+    background-image: url("assets/cloudy-day.png");
+  }
+
+#header{
+    background-color: hsl(33, 84%, 93%);
+    font-weight: bold;
+}
+
+
+
 
