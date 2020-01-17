@@ -10,7 +10,6 @@ As a consumer who is interested in comic books, I would like to be able to brows
 
 * Description
 * What's Inside
-* Live Demo
 * Deployment
 * Technologies Used
 * Status
@@ -34,11 +33,7 @@ The webpage is comprised of:
 4. wish list page with save to local storage
 5. comic store locator page with Google Maps API
 
-## Live Demo
-
 ## Deployment
-
-Option 1: CLONE REPO 
 
 Webpage can be found at this link: 
 
@@ -52,11 +47,12 @@ Webpage can be found at this link:
 
 ## Technologies Used
 
-* Moment.js
+* Font Awesome
 * Comic Vine API
 * Google Maps API
-* Paper CSS
-* Javascript
+* Giphy API
+* Paper CSS Framework
+* jQuery
 * GitHub Pages
 
 ## Status
