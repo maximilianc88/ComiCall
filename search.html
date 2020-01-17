@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="https://unpkg.com/papercss@1.6.1/dist/paper.min.css">
     <link rel="stylesheet" type="text/css" href="style.css" />
     <link rel="stylesheet" type="text/css" href="search-files/searchStyle.css" />
+    <script
+    src="https://kit.fontawesome.com/6396e1b946.js"
+    crossorigin="anonymous"
+  ></script>
     <title>Search</title>
 </head>
 <body>
@@ -47,12 +51,21 @@
           <div class="card" style="width: 25rem;">
             <div class="card-body">
               <div class="form-group">
-                <label id="searchBy" for="paperSelects1">Search by...</label>
+                <label id="searchBy" for="paperSelects1">Select</label>
                 <select id="paperSelects1" style="width: 150px;">
-                  <option value="1">Title</option>
-                  <option value="2">Publisher</option>
-                  <option value="3">Character</option>
+                  <option value="1">Character</option>
+                  <option value="2">Title</option>
+                  <option value="3">Publisher</option>
                 <select>
+               
+              </div>
+              
+              <div class="form-group" style="display: flex; flex-direction: column">
+                <input type="text" placeholder="Search term..." id="paperInputs1" id="search-term" style="height: 50px">
+                <label id="searchBtn">Click the button!</label>
+                <button class="btn btn-warning">
+                  <i class="fab fa-searchengin"></i>
+                </button>
               </div>
             </div>
           </div>
@@ -60,8 +73,11 @@
             <div class="card-body">
               <img src="https://photos-images.active.com/file/3/1/original/3b/90/3b9016f4-27b0-4548-ac48-31f6d180ef89.jpg" alt="comic hero vs villain">
             </div>
+          
           </div>
+        
           </div>
+          
           
         <div class="card" style="display: flex; flex-direction: row" id="textCard">
             <img src="https://picsum.photos/250"  alt="Card example image">

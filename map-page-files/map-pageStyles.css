@@ -29,7 +29,7 @@ html, body{
 }
 
 body {
-    background-image: url("assets/cloudy-day.png");
+    background-image: url("../assets/cloudy-day.png");
   }
 
 #header{
