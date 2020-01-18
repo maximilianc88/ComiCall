@@ -20,7 +20,11 @@ As a consumer who is interested in comic books, I would like to be able to brows
 
 ## Description
 
-
+The purpose of the project is to deliver a friendly, simple, practical comic search application. 
+The application is designed to make searching for specif comics just as easy as discovering new comics.
+The user enters the website by clicking on the 'Explore' button and is introduced to the comic search application, wish list, and store locator.
+Users have the option of storing comic selections to wish lists and inquiring the nearest comic book store location.
+This page is formatted to be responsive to multiple viewports. 
 
 ## What's Inside
 
