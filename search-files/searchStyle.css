@@ -1,6 +1,3 @@
-#searchHeader{
-
-}
 
 #testCard{
     height: 150px;
@@ -10,4 +7,11 @@
 #searchBy{
     font-weight: bold;
     font-size: 30px;
+}
+
+#cardImage{
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+    
 }
