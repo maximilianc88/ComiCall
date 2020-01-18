@@ -64,8 +64,8 @@ In progress
 
 ## Authors
 
-Randall Burgess
-Maximillian Cartwright
+Randall Burgess,
+Maximillian Cartwright,
 Andrea Thomas
 
 ## License 
