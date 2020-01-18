@@ -6,6 +6,8 @@ As a consumer who is interested in comic books, I would like to be able to brows
 
 ## Screenshot
 
+<img src = “https://user-images.githubusercontent.com/56765185/72659194-d7ed6080-3970-11ea-855f-91bb87147273.png" width = “200”>
+
 ## Table of Contents
 
 * Description
@@ -18,10 +20,7 @@ As a consumer who is interested in comic books, I would like to be able to brows
 
 ## Description
 
-The purpose of this project is to create a timed multiple choice quiz using Javascript. 
-The quiz is designed to penalize the user 15 seconds for every incorrect answer.
-The user is prompted to select an answer from the choices list. The user gets a notification on whether or not their selection is correct. Quiz has a highscores log with a button to clear the scores. 
-This page is formatted to be responsive to multiple viewports. 
+
 
 ## What's Inside
 
