@@ -34,7 +34,7 @@ The webpage is comprised of:
 
 ## Deployment
 
-Webpage can be found at this link: 
+Webpage can be found at this link: https://maximilianc88.github.io/ComiCall/
 
 1. The landing page: the user is greeted and formally invited to enter the application; user clicks enter button (linked to home page)
 2. The home page: delivers description of the application and how to use with bold links to each page
