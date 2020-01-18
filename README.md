@@ -10,13 +10,13 @@ As a consumer who is interested in comic books, I would like to be able to brows
 
 ## Table of Contents
 
-* Description
-* What's Inside
-* Deployment
-* Technologies Used
-* Status
-* Authors
-* License
+* [Description](#description)
+* [What's Inside](#what's-inside)
+* [Deployment](#deployment)
+* [Technologies Used](#technologies-used)
+* [Status](#status)
+* [Authors](#authors)
+* [License](#license)
 
 ## Description
 
