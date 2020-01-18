@@ -2,9 +2,11 @@
 
 ## User Story
 
-As a consumer who is interested in comic books, I would like to be able to browse for comics by illustration, create a wish list of comics, and find a nearby comic book store(s) so that I can find comic books that fit my preferences.
+As a consumer who is interested in comic books, I would like to be able to browse for comics by character and title, create a wish list of comics, and find a nearby comic book store(s) so that I can find comic books that fit my preferences.
 
 ## Screenshot
+
+<img src = 'https://user-images.githubusercontent.com/56765185/72659194-d7ed6080-3970-11ea-855f-91bb87147273.png' width = “200”>
 
 ## Table of Contents
 
@@ -18,10 +20,7 @@ As a consumer who is interested in comic books, I would like to be able to brows
 
 ## Description
 
-The purpose of this project is to create a timed multiple choice quiz using Javascript. 
-The quiz is designed to penalize the user 15 seconds for every incorrect answer.
-The user is prompted to select an answer from the choices list. The user gets a notification on whether or not their selection is correct. Quiz has a highscores log with a button to clear the scores. 
-This page is formatted to be responsive to multiple viewports. 
+
 
 ## What's Inside
 
@@ -35,7 +34,7 @@ The webpage is comprised of:
 
 ## Deployment
 
-Webpage can be found at this link: 
+Webpage can be found at this link: https://maximilianc88.github.io/ComiCall/
 
 1. The landing page: the user is greeted and formally invited to enter the application; user clicks enter button (linked to home page)
 2. The home page: delivers description of the application and how to use with bold links to each page
