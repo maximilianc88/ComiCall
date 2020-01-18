@@ -2,11 +2,11 @@
 
 ## User Story
 
-As a consumer who is interested in comic books, I would like to be able to browse for comics by illustration, create a wish list of comics, and find a nearby comic book store(s) so that I can find comic books that fit my preferences.
+As a consumer who is interested in comic books, I would like to be able to browse for comics by character and title, create a wish list of comics, and find a nearby comic book store(s) so that I can find comic books that fit my preferences.
 
 ## Screenshot
 
-<img src = “https://user-images.githubusercontent.com/56765185/72659194-d7ed6080-3970-11ea-855f-91bb87147273.png" width = “200”>
+<img src = 'https://user-images.githubusercontent.com/56765185/72659194-d7ed6080-3970-11ea-855f-91bb87147273.png' width = “200”>
 
 ## Table of Contents
 
